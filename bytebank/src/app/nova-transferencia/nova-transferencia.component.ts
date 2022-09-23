@@ -17,7 +17,7 @@ export class NovaTransferenciaComponent{
     console.log('Solicitada nova transferência')
 
     this.aoTransferir.emit({valor: this.valor, destino: this.destino})
-    
+
     this.clean()
   }
 

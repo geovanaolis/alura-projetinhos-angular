@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 
 export class TransferenciaService {
   private listaDeTransferencia: any[]
-  private url = 'http://localhost:3000/transferencias'
+  private url = 'http://localhost:3000/transferencias/'
 
   constructor(private httpClient: HttpClient) {
     this.listaDeTransferencia = []
@@ -25,7 +25,7 @@ export class TransferenciaService {
 
   add(transferencia: Transferencia): Observable<Transferencia> {
     this.hidratar(transferencia)
-    
+
     return this.httpClient.post<Transferencia>(this.url, transferencia)
   }
 

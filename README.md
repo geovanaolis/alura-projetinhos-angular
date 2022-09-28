@@ -16,6 +16,19 @@ Estudos realizados na Alura com objetivo de adaptar ao trabalho como desenvolved
 - VS Code
 - GitHub
 
+## Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 14.2.3.
+### Servidor de desenvolvimento
+Execute `ng serve` para um servidor dev. Navegue até `http://localhost:4200/`. O aplicativo será recarregado automaticamente se você alterar qualquer um dos arquivos de origem.
+
+### Andaimes de código
+Execute `ng generate component component-name` para gerar um novo componente. Você também pode usar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+### Build
+Execute `ng build` para buildar o projeto. Os artefatos de construção serão armazenados no `dist/` diretório. Use o `--prod` sinalizador para uma build de produção.
+
+### Mais ajuda
+Para obter mais ajuda sobre o uso da CLI Angular `ng help` ou vá conferir [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
 ## Observações 🎈
   
 - 👩‍💻 Pessoa desenvolvedora
